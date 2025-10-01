@@ -50,7 +50,7 @@ foreach($_GET as $indice => $dado){
     if(!empty($busca)) {
         $criterio[] = [
             'AND',
-            'texto',
+            'id',
             'like',
             "%{$busca}%"
         ];
